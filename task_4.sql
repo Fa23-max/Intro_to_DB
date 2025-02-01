@@ -1,2 +1,3 @@
-USE alx_book_store;
-DESC books;
+SHOW COLUMNS FROM books FROM alx_book_store;
+
+
