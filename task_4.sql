@@ -1,2 +1,2 @@
 USE alx_book_store;
-SHOW INDEX FROM books;
+DESC FROM books;
