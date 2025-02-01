@@ -15,9 +15,9 @@ CREATE TABLE Books (
 );
 CREATE TABLE Customers (
   customer_id int(11) NOT NULL,
-  customer_name varchar(215) NOT NULL,
-  email varchar(215) NOT NULL,
-  address text NOT NULL,
+  customer_name VARCHAR(215), 
+  email VARCHAR(215), 
+  address TEXT,
   PRIMARY KEY (customer_id)
 );
 CREATE TABLE Orders (
