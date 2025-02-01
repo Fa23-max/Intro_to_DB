@@ -1,3 +1,4 @@
+CREATE DATABASE IF NOT EXISTS alx_book_store;
 CREATE TABLE authors (
   author_id int(11) NOT NULL,
   author_name varchar(215) NOT NULL,
